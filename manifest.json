@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Download Sidebar",
+    "version": "1.0",
+    "description": "Displays a list of downloaded files in the sidebar.",
+    "permissions": [
+        "downloads",
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "sidebar_action": {
+        "default_panel": "sidebar.html",
+        "default_icon": {
+            "16": "icons/icon-16.png",
+            "32": "icons/icon-32.png"
+        },
+        "default_title": "Downloads"
+    }
+}
